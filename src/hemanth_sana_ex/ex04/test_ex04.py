@@ -7,7 +7,7 @@ Your code should pass these tests before submission.
 
 import pytest
 from myrand import LCGRand, ListRand
-# from walker import Walker
+from walker import Walker
 
 __author__ = 'Hemanth Sana'
 __email__ = 'hesa@nmbu.no'
