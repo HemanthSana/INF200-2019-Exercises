@@ -48,12 +48,10 @@ class Simulation:
 
 
 if __name__ == "__main__":
-    walks_num = 20
-    simulation_1 = Simulation(0, 10, 12345)
-    steps_1 = simulation_1.run_simulation(walks_num)
-    print(steps_1)
-    simulation_2 = Simulation(0, 10, 54321)
-    simulation_3 = Simulation(10, 0, 12345)
-    simulation_4 = Simulation(10, 0, 54321)
+    print(Simulation(0, 10, 12345).run_simulation(20))
+    print(Simulation(0, 10, 12345).run_simulation(20))
+    print(Simulation(0, 10, 54321).run_simulation(20))
 
-
+    print(Simulation(10, 0, 12345).run_simulation(20))
+    print(Simulation(10, 0, 12345).run_simulation(20))
+    print(Simulation(10, 0, 54321).run_simulation(20))
